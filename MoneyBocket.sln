@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyBocket.Domain", "MoneyBocket.Core\MoneyBocket.Domain.csproj", "{1DECAE26-CB9A-492F-B936-CF907906DD01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyBocket.Test", "MoneyBocket.Test\MoneyBocket.Test.csproj", "{9106F87C-17D0-4322-91E2-5F2B48B8AC8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyBocket.Persistence", "MoneyBocket.Persistence\MoneyBocket.Persistence.csproj", "{582ADE10-EA55-49BD-BAF7-0294F170BC9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D84F8902-6924-4C4B-8F69-48DEEA089A08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoneyBocket.Application", "MoneyBocket.Application\MoneyBocket.Application.csproj", "{A9F48048-07F0-4800-9025-F3B1C3AE15A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyBocket.API", "MoneyBocket.API\MoneyBocket.API.csproj", "{D6B379F2-9333-429E-9BC0-C1E7E9F478E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DECAE26-CB9A-492F-B936-CF907906DD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DECAE26-CB9A-492F-B936-CF907906DD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DECAE26-CB9A-492F-B936-CF907906DD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DECAE26-CB9A-492F-B936-CF907906DD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9106F87C-17D0-4322-91E2-5F2B48B8AC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9106F87C-17D0-4322-91E2-5F2B48B8AC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9106F87C-17D0-4322-91E2-5F2B48B8AC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9106F87C-17D0-4322-91E2-5F2B48B8AC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582ADE10-EA55-49BD-BAF7-0294F170BC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582ADE10-EA55-49BD-BAF7-0294F170BC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582ADE10-EA55-49BD-BAF7-0294F170BC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582ADE10-EA55-49BD-BAF7-0294F170BC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F48048-07F0-4800-9025-F3B1C3AE15A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F48048-07F0-4800-9025-F3B1C3AE15A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F48048-07F0-4800-9025-F3B1C3AE15A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F48048-07F0-4800-9025-F3B1C3AE15A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B379F2-9333-429E-9BC0-C1E7E9F478E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B379F2-9333-429E-9BC0-C1E7E9F478E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B379F2-9333-429E-9BC0-C1E7E9F478E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B379F2-9333-429E-9BC0-C1E7E9F478E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9106F87C-17D0-4322-91E2-5F2B48B8AC8A} = {D84F8902-6924-4C4B-8F69-48DEEA089A08}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE5852A8-98D1-4EE8-A162-69DF545C1BFD}
+	EndGlobalSection
+EndGlobal
