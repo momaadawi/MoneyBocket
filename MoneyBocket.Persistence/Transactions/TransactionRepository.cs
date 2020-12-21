@@ -1,7 +1,6 @@
 ﻿using MoneyBocket.Application.Interfaces;
 using MoneyBocket.Domain.Models;
 using MoneyBocket.Persistence.Shared;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace MoneyBocket.Persistence.Transactions
@@ -25,22 +24,18 @@ namespace MoneyBocket.Persistence.Transactions
 
         public Transaction Get(int id)
         {
-            throw new System.NotImplementedException();
+            return _dataBaseContext.Set<Transaction>().Find(id);
         }
 
         public IQueryable<Transaction> GetAll()
         {
-            throw new System.NotImplementedException();
-        }
-
-        public IEnumerable<Transaction> GetTransactionWithCategoryId(int categoryId)
-        {
-            throw new System.NotImplementedException();
+            return _dataBaseContext.Transactions.AsQueryable();
         }
 
         public void Remove(Transaction entity)
         {
-            throw new System.NotImplementedException();
+            _dataBaseContext.Transactions.Remove(entity);
+            _dataBaseContext.Save();
         }
     }
 }
