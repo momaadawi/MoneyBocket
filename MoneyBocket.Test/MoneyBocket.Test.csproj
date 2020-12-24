@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include=".Framework\ContextInilizer.cs" />
     <Compile Include=".Framework\OptionBuilder.cs" />
     <Compile Include=".Framework\ConnectionProvider.cs" />
   </ItemGroup>
@@ -14,6 +15,7 @@
   <ItemGroup>
     <PackageReference Include="AutoFixture" Version="4.14.0" />
     <PackageReference Include="AutoFixture.AutoMoq" Version="4.14.0" />
+    <PackageReference Include="AutoFixture.Xunit2" Version="4.14.0" />
     <PackageReference Include="FluentAssertions" Version="5.10.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.0" />
