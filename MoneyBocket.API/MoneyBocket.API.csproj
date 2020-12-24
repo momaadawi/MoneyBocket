@@ -9,11 +9,19 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.0" />
   </ItemGroup>
 
   
   <ItemGroup>
     <ProjectReference Include="..\MoneyBocket.Persistence\MoneyBocket.Persistence.csproj" />
+  </ItemGroup>
+
+  
+  <ItemGroup>
+    <Folder Include="Transactions\Controllers\" />
+    <Folder Include="Transactions\Models\" />
+    <Folder Include="Transactions\Views\" />
   </ItemGroup>
 
 </Project>
